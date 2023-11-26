@@ -398,6 +398,7 @@ const error &lexer::sscan(const std::string &file,
   ptr = 0;
   toks = {};
   res = file;
+
   // set lexer filename that would be set in open(file)
   filename = filesname;
 
